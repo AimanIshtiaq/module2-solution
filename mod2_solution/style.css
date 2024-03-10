@@ -1,0 +1,114 @@
+* {
+
+			box-sizing: border-box;
+         }
+		 h1{
+             margin-bottom: 20px;
+             margin-top: 50px;
+             }
+
+        section {
+			background-color:lightgray;
+			width:200px ;
+			height:150px;
+			margin: 20px;
+			border: 1px solid;
+			padding-left: 10px ;
+			padding-top: 33px;
+			padding-right: 9px;
+			
+		}
+		#section1{
+			position: relative;
+			top: 120px;
+			left:380px;
+			
+
+			
+		}
+		
+		#section2{
+			position: relative;
+			bottom: 50px;
+
+
+
+			
+		}
+		#section3 {
+			position: relative;
+			bottom: 220px;
+			left:760px;
+			
+		
+		}
+		#title1 {
+			background-color: lightpink;
+            position: absolute;
+            top: 220px;
+            left: 264px;
+            width:100px ;
+			height:30px;
+			margin: 6px;
+			border: 1px solid;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			padding-right: 30px;
+			padding-left: 20px;
+
+
+		}
+
+		#title2 {
+            background-color: yellow;
+            width:90px ;sss
+			height:10px;
+			position: absolute;
+            top: 220px;
+            left: 644px;
+            width:100px ;
+			height:30px;
+			margin: 6px;
+			border: 1px solid;
+            padding: 5px 20px 10px 35px;
+
+			
+		}
+		#title3 {
+            background-color: lightskyblue;
+			  width:90px ;
+			height:30px;
+			position: absolute;
+              top: 220px;
+              left: 1023px;
+            width:100px ;
+			height:30px;
+			margin: 6px;
+			border: 1px solid;
+			padding: 5px 20px 10px 35px;
+
+		}
+
+@media (min-width: 992px) {
+  section {
+    width: 25%; 
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #section1, #section2 {
+    width: 50%; 
+    float: left;
+  }
+  #section3 {
+    width: 100%; 
+    clear: both; 
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    width: 100%; 
+  }
+}
