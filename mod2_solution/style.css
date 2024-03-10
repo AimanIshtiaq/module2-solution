@@ -9,19 +9,19 @@
 
         section {
 			background-color:lightgray;
-			width:200px ;
+			width:350px ;
 			height:150px;
 			margin: 20px;
 			border: 1px solid;
-			padding-left: 10px ;
-			padding-top: 33px;
-			padding-right: 9px;
+			padding-left: 20px ;
+			padding-top: 35px;
+			padding-right: 40px;
 			
 		}
 		#section1{
 			position: relative;
 			top: 120px;
-			left:380px;
+			left:600px;
 			
 
 			
@@ -30,6 +30,7 @@
 		#section2{
 			position: relative;
 			bottom: 50px;
+			left: 180px;
 
 
 
@@ -38,15 +39,15 @@
 		#section3 {
 			position: relative;
 			bottom: 220px;
-			left:760px;
+			left:1020px;
 			
 		
 		}
 		#title1 {
 			background-color: lightpink;
             position: absolute;
-            top: 220px;
-            left: 264px;
+            top: 221px;
+            left: 486px;
             width:100px ;
 			height:30px;
 			margin: 6px;
@@ -61,11 +62,11 @@
 
 		#title2 {
             background-color: yellow;
-            width:90px ;sss
+            width:90px ;
 			height:10px;
 			position: absolute;
-            top: 220px;
-            left: 644px;
+            top: 221px;
+            left: 906px;
             width:100px ;
 			height:30px;
 			margin: 6px;
@@ -79,8 +80,8 @@
 			  width:90px ;
 			height:30px;
 			position: absolute;
-              top: 220px;
-              left: 1023px;
+              top: 221px;
+              left: 1326px;
             width:100px ;
 			height:30px;
 			margin: 6px;
